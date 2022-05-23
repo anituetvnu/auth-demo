@@ -1,8 +1,8 @@
-import dotenv from 'dotenv';
+const dotenv = require('dotenv');
 
 dotenv.config({ path: '.env' });
 
-export default {
+const database = {
   client: process.env.DB_NAME,
   version: 14.1,
   connection: {
@@ -23,3 +23,6 @@ export default {
     directory: './database/seeds',
   },
 };
+
+// eslint-disable-next-line import/prefer-default-export
+module.exports = database;

@@ -12,10 +12,13 @@
     "import/resolver": {
       "alias": {
         "map": [
-          // ["babel-polyfill", "babel-polyfill/dist/polyfill.min.js"],
-          // ["helper", "./utils/helper"],
-          // ["material-ui/DatePicker", "../custom/DatePicker"],
-          // ["material-ui", "material-ui-ie10"]
+          // ["@services", "./server/http/services"],
+          // ["@middlewares", "./server/http/middlewares"],
+          // ["@controllers", "./server/http/controllers"],
+          // ["@models", "./server/models"],
+          // ["@routers", "./server/routers"],
+          // ["@error", "./server/helpers/error"],
+          // ["@jwt", "./server/helpers/jwt"]
         ],
         "extensions": [".ts", ".js", ".jsx", ".json"]
       }

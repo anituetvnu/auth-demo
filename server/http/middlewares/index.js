@@ -1,5 +1,4 @@
 import auth from './auth';
+import me from './me';
 
-const middlewares = { auth };
-
-export default middlewares;
+export { auth, me };

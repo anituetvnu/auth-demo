@@ -1,4 +1,4 @@
-const { Model } = require('objection');
+import { Model } from 'objection';
 
 class User extends Model {
   static get tableName() {
